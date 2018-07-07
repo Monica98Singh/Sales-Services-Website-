@@ -1,0 +1,254 @@
+#container {
+    width: 1100px;
+    height: 155px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 40px;
+    opacity: .75; 
+    background-image: url("https://mitashi-sales-service-center.000webhostapp.com/img1.jpg");
+}
+
+#clock {
+    margin: 10px 5px 3px 15px; 
+    border-radius: 55px;
+}
+
+#menu {
+    height: 35px;
+    background: linear-gradient(#F8F594,#D5D533);
+    border-radius: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 65px;
+    height: 30px;
+    border-right: 2px solid #5d12e7;
+    border-right-style: dashed;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #5d12e7;
+    line-height: 1.5;
+    
+    
+}
+
+#quote {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    background-color: pink;
+    border-radius: 40px;
+}
+#quote img {
+    flex-shrink: 0;
+    width: 50%;
+    min-height: 100%;
+    padding: 5px;
+    border-color: crimson;
+}
+
+#quote h2 {
+    padding: 2px;
+    margin: 10px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+#brand h1 {
+    margin-top: 10px;
+    margin-bottom: 0px; 
+    font-size: 64px;
+    font-weight:100px;
+    font-family: normal;
+   /* font-style: italic;*/
+    color: black;
+    text-decoration:overline;
+    text-decoration-style: dashed;
+    
+    
+}
+.sidebar {
+    height: 300px;
+    width: 530px;
+    border: 2px solid green;
+}
+#leftsidebar {
+    float: left;
+    border-radius: 40px;
+    font-size: 25px;
+    padding-left: 6px;
+    background-color: pink;
+    font-family: sans-serif;
+}
+#rightsidebar {
+    float: right;
+    background-image: url(https://mitashi-sales-service-center.000webhostapp.com/discount2.jpg);
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+
+.headings {
+    height: 100px;
+    width: 1050px;
+    background-image: url(https://mitashi-sales-service-center.000webhostapp.com/img3.jpg);
+    color: cyan;
+    background-repeat: repeat;
+    column-gap: normal;
+    border-radius: 40px;
+    font-size: 25px;
+    font-family: cursive;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 50px;
+    opacity: 0.90;
+} 
+
+#howitworks {
+    height: 100px;
+    width:1050ps;
+    border-radius: 40px;
+    font-size: 25px;
+    margin-top: 355px;
+    margin-bottom: 30px;
+    background-image: url(https://mitashi-sales-service-center.000webhostapp.com/img3.jpg);
+}
+
+#leftsidebar2 {
+    float: left;
+    border-radius: 40px;
+    font-size: 25px;
+    padding-left: 6px;
+    background-image: url(https://mitashi-sales-service-center.000webhostapp.com/howitworks.png);
+    font-family: sans-serif;
+}
+#rightsidebar2 {
+    float: right;
+    font-size: 30px;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    background-color: pink;
+}
+
+#contact-form {
+    height: 100px;
+    width:1050ps;
+    border-radius: 40px;
+    font-size: 25px;
+    margin-top: 355px;
+    margin-bottom: 30px;
+    background-image: url(https://mitashi-sales-service-center.000webhostapp.com/img3.jpg);
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#map {
+    height: 100px;
+    width:1050ps;
+    border-radius: 40px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(https://mitashi-sales-service-center.000webhostapp.com/img3.jpg);
+}
+
+#leftsidebar3 {
+    float: left;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+#rightsidebar3 {
+    float: right;
+    font-size: 30px;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    background-image: url(https://mitashi-sales-service-center.000webhostapp.com/map2.jpg);
+
+}
+
+#aboutus-img {
+    margin: 30px;
+    width: 850px;
+    height: 750px;
+    border-radius: 50px;
+}
+
+
+#aboutus-content p {
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+    color: gold
+}
+
+#services-heading {
+    height: 200px;
+    width: 1300px;
+    font-size: 40px;
+    font-family: cursive;
+    border-radius: 40px;
+    background-color: aqua;
+    background-image: url(https://mitashi-sales-service-center.000webhostapp.com/img2.jpg);
+    text-align: center;
+    font-weight: 100;
+    }
+#services-heading h1{
+    padding-top: 25px;
+}
